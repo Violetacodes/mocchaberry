@@ -67,6 +67,7 @@ export const data = [
         id: 9,
         name: "Swiss Chocolate Almond",
         searchTerm: "flavoured",
+        price: 19.80,
         image: "https://mochaberry.ca/wp-content/uploads/coffee-Flavour-SwissChocolateAlmond.jpg"
     },
 
