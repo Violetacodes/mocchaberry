@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
+nav {
+  background: #321d0a;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-family: 'Italiana', serif;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link{
+  padding: 10px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.cont {
+
+  display: flex;
+
+  justify-content: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background-color: #f8f6f4;
+  font-family: 'Inria Serif', serif;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.change {
+
+  font-size: 20px;
+
+  color: white;
+
+  padding: 12px;
+
+  border: none;
+
+  font-family: 'Inria Serif', serif;
+
+  font-weight: bold;
+
+}
+
+
+button {
+
+  margin: 10px;
+
+}
+
+.re {
+  background-color: #CE6D6D;
+}
+
+.ex{
+  background-color: #5C9EBE;
+}
+
+.fl {
+  background-color: #7DA064;
+}
+
+.re:hover {
+  background-color: white;
+  color: #CE6D6D;
+  border: 1px solid #CE6D6D ;
+}
+
+.ex:hover{
+  background-color: white;
+  color: #5C9EBE;
+  border: 1px solid #5C9EBE ;
+}
+
+.fl:hover{
+  background-color: white;
+  color: #7DA064;
+  border: 1px solid #7DA064 ;
+}
+
+.products {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+}
+
+.product-card {
+
+  padding: 2%;
+
+}
+
+.sort{
+  display: flex;
+  justify-content: center;
+}
+
+.mocchaberry{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  background-image: url("https://img.freepik.com/free-vector/coffee-beans-seamless-pattern-sketch-style_1182-1332.jpg?t=st=1651774060~exp=1651774660~hmac=9de85702eee9537b5f13e757a852bac0734e2a769364be3cf274c391637772e9&w=900");
+}
+
+.shop{
+  font-size: 20px;
+  font-weight:bolder;
+  font-style: italic;
+}
+
+.moccha{
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  justify-content: center;
+}
+
+.cof{
+  padding: 30px;
+}
+
+.cs{
+  background-color: #ffffff;
+}
+
+.phrase{
+  display: flex;
+  justify-content: center;
+}
+.about{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 15px;
+}
+
+.btn{
+  background: 0;
+  border: none;
+  font-size: 18px;
+  color: #814613;
+  font-style: italic;
+  
+}
+
+span{
+  color: red;
+}
+
+.message{
+  padding: 10px;
+}
+
+.btnsubmit{
+  background: 0;
+  border: none;
+  font-size: 18px;
   color: white;
+  background-color: #814613;
+  padding: 12px;
+  
+}
+.btnsubmit:hover {
+  background-color: white;
+  color: #814613;
+  border: 1px solid #814613 ;
 }
 
-.App-link {
-  color: #61dafb;
+.end{
+  line-height: 0;
+  margin: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text{
+  text-align: center;
 }
